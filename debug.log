@@ -64,12 +64,3 @@ libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [INFO] #
 Get data from file(particleTexture.png) failed!
 [LUA-print] rule ctor
-[LUA-print] ----------------------------------------
-[LUA-print] LUA ERROR: [string "app/scenes/Bubble.lua"]:35: attempt to index field 'startPos' (a nil value)
-
-[LUA-print] 
-stack traceback:
-	[string "app/scenes/Bubble.lua"]:35: in function 'moveToGrid'
-	[string "app/scenes/RuleLayer.lua"]:379: in function 'FillNewItem'
-	[string "app/scenes/RuleLayer.lua"]:403: in function <[string "app/scenes/RuleLayer.lua"]:393>
-[LUA-print] ----------------------------------------

@@ -50,6 +50,10 @@ function RuleLayer:ctor()
             end
             --记录第一个泡泡
             self.preBubble = self:getBubbleByPos(event.x, event.y)
+            for k,v in pairs(self.bubbleList) do
+            	v:stopAllActions()
+            	v:setScale(1)
+            end
  			self.preBubble:selectStatus()
 	        return true
 	    elseif event.name == "ended" then
