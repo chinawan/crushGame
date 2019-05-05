@@ -1,0 +1,75 @@
+
+{
+	gl.supports_OES_map_buffer: false
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: Quick-Cocos2dx-Community 3.6.5 Release
+	gl.vendor: ATI Technologies Inc.
+	gl.supports_PVRTC: false
+	gl.renderer: AMD Radeon Pro 455 OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	gl.max_texture_units: 16
+	gl.supports_OES_packed_depth_stencil: false
+	gl.supports_ATITC: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.version: 2.1 ATI-2.8.38
+	gl.supports_S3TC: true
+	gl.supports_OES_depth24: false
+}
+
+
+Worning: OpenAL can't support EAX2.0 on this platform
+Quick-Cocos2dx-Community C++ support ready.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@register_all_ToolData
+------------------------------------------------
+LOAD LUA FILE: /Users/macbook/Documents/crushGame/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/macbook/Documents/crushGame/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 852.00
+[LUA-print] [INFO] # display.widthInPixels        = 523.94
+[LUA-print] [INFO] # display.heightInPixels       = 930.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.09
+[LUA-print] [INFO] # display.width                = 480.00
+[LUA-print] [INFO] # display.height               = 852.00
+[LUA-print] [INFO] # display.cx                   = 240.00
+[LUA-print] [INFO] # display.cy                   = 426.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 480.00
+[LUA-print] [INFO] # display.top                  = 852.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -240.00
+[LUA-print] [INFO] # display.c_right              = 240.00
+[LUA-print] [INFO] # display.c_top                = 426.00
+[LUA-print] [INFO] # display.c_bottom             = -426.00
+[LUA-print] [INFO] #
+Get data from file(particleTexture.png) failed!
+[LUA-print] rule ctor
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "app/scenes/Bubble.lua"]:35: attempt to index field 'startPos' (a nil value)
+
+[LUA-print] 
+stack traceback:
+	[string "app/scenes/Bubble.lua"]:35: in function 'moveToGrid'
+	[string "app/scenes/RuleLayer.lua"]:379: in function 'FillNewItem'
+	[string "app/scenes/RuleLayer.lua"]:403: in function <[string "app/scenes/RuleLayer.lua"]:393>
+[LUA-print] ----------------------------------------
